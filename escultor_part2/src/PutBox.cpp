@@ -24,6 +24,8 @@ PutBox::PutBox(int x0, int x1, int y0, int y1, int z0, int z1,float r, float g, 
 void PutBox::draw(Sculptor& s)
 {
     int i,j,k;
+    
+    s.setColor(r,g,b,a);
 
     for(k=z0; k<=z1; k++){
         for(j=y0; j<=y1; j++){
