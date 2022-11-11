@@ -23,7 +23,7 @@ void CutBox::draw(Sculptor& s)
     for(k=z0; k<=z1; k++){
         for(j=y0; j<=y1; j++){
             for(i=x0; i<=x1; i++){
-                s->cutVoxel(i,j,k);
+                s.cutVoxel(i,j,k);
             }
         }
     }
