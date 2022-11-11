@@ -23,7 +23,7 @@ void CutEllipsoid::draw(Sculptor& s)
         for(j=0; j<ny; j++){
             for(i=0; i<nx; i++){
                 if(((((float(i-xcenter)/rx))*(float(i-xcenter)/rx))+((float(j-ycenter)/ry)*(float(j-ycenter)/ry))+(((float(k-zcenter)/rz))*((float(k-zcenter)/rz)))) <= 1.0 ){
-                    s->cutVoxel(i,j,k);
+                    s.cutVoxel(i,j,k);
                 }
             }
         }
