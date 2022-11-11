@@ -18,31 +18,31 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz){
   this->ny = _ny;
   this->nx = _nx;
 
-  	//alocando dinamicamente a matriz 3d
-  	v = (Voxel***) new Voxel[nz];
-	v[0] = (Voxel**) new Voxel[nz*nx];
-	v[0][0] = new Voxel[nz*nx*ny];
+    //alocando dinamicamente a matriz 3d
+    v = (Voxel***) new Voxel[nz];
+    v[0] = (Voxel**) new Voxel[nz*nx];
+    v[0][0] = new Voxel[nz*nx*ny];
 
-	//ajustando os endereços
-	for(i=1;i<nz;i++){
-		v[i] = v[i-1] + ny;
-	}
-	for(i=1; i<nz*ny;i++){
-		v[0][i] = v[0][i-1] + nx;
-	}
+    //ajustando os endereços
+    for(i=1;i<nz;i++){
+        v[i] = v[i-1] + ny;
+    }
+    for(i=1; i<nz*ny;i++){
+        v[0][i] = v[0][i-1] + nx;
+    }
 
-	//set padrao de cada elemento de Voxel
-	for(i=0; i<nz; i++){
-		for(j=0; j<ny; j++){
-			for(k=0; k<nx; k++){
-				v[i][j][k].r = 255;
-				v[i][j][k].g = 255;
-				v[i][j][k].b = 255;
-				v[i][j][k].a = 1.0;
-				v[i][j][k].isOn = false;
-			}
-		}
-	}
+    //set padrao de cada elemento de Voxel
+    for(i=0; i<nz; i++){
+        for(j=0; j<ny; j++){
+            for(k=0; k<nx; k++){
+                v[i][j][k].r = 255;
+                v[i][j][k].g = 255;
+                v[i][j][k].b = 255;
+                v[i][j][k].a = 1.0;
+                v[i][j][k].isOn = false;
+            }
+        }
+    }
 }
 
 void Sculptor::setColor(float r, float g, float b, float a){
@@ -125,5 +125,16 @@ void Sculptor::writeOFF(const char* filename){
     file.close();
 }
 
+int Sculptor::get_nz(){
+    return nz;
+}
+
+int Sculptor::get_ny(){
+    return ny;
+}
+
+int Sculptor::get_nx(){
+    return nx;
+}
 
 
