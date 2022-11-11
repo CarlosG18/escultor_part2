@@ -21,7 +21,7 @@ void CutSphere::draw(Sculptor& s)
         for(j=0; j<ny; j++){
             for(i=0; i<nx; i++){
                 if((((i-xcenter)*(i-xcenter))+((j-ycenter)*(j-ycenter))+((k-zcenter)*(k-zcenter))) <= ((radius)*(radius))){
-                    s->cutVoxel(i,j,k);
+                    s.cutVoxel(i,j,k);
                 }
             }
         }
