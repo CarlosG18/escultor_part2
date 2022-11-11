@@ -7,7 +7,7 @@
 class CutVoxel : public FiguraGeometrica
 {
     private:
-        int x, int y, int z;
+        int x, y, z;
     public:
         CutVoxel(int x, int y, int z);
         virtual ~CutVoxel();
