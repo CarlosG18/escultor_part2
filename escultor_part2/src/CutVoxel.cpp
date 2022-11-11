@@ -16,5 +16,5 @@ CutVoxel::CutVoxel(int x, int y, int z)
 
 void CutVoxel::draw(Sculptor& s)
 {
-    s->v[z][y][x].isOn = false;
+   s.cutVoxel(x,y,z);
 }
