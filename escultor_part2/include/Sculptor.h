@@ -20,7 +20,9 @@ class Sculptor
       void putVoxel(int x, int y, int z);
       void cutVoxel(int x, int y, int z);
       void writeOFF(const char* filename);
+      int get_nz();
+      int get_ny();
+      int get_nx();
 };
 
 #endif // SCULPTOR_H
-
