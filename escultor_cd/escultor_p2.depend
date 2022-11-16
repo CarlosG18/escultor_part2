@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1668599713 source:/home/lab25ep/Documents/carlos/escultor_p2/src/CutBox.cpp
+	"CutBox.h"
+	"Sculptor.h"
+
+1668599734 /home/lab25ep/Documents/carlos/escultor_p2/include/CutBox.h
+	<FiguraGeometrica.h>
+
+1668599493 /home/lab25ep/Documents/carlos/escultor_p2/include/FiguraGeometrica.h
+	"Sculptor.h"
+
+1668599559 /home/lab25ep/Documents/carlos/escultor_p2/include/Sculptor.h
+
+1668599837 source:/home/lab25ep/Documents/carlos/escultor_p2/src/CutSphere.cpp
+	"CutSphere.h"
+
+1668599856 /home/lab25ep/Documents/carlos/escultor_p2/include/CutSphere.h
+	<FiguraGeometrica.h>
+
+1668599895 source:/home/lab25ep/Documents/carlos/escultor_p2/src/CutVoxel.cpp
+	"CutVoxel.h"
+	"Sculptor.h"
+
+1668599933 /home/lab25ep/Documents/carlos/escultor_p2/include/CutVoxel.h
+	"Sculptor.h"
+	<FiguraGeometrica.h>
+
+1668599969 source:/home/lab25ep/Documents/carlos/escultor_p2/src/PutBox.cpp
+	"PutBox.h"
+	"Sculptor.h"
+
+1668599992 /home/lab25ep/Documents/carlos/escultor_p2/include/PutBox.h
+	"FiguraGeometrica.h"
+
+1668599589 source:/home/lab25ep/Documents/carlos/escultor_p2/src/Sculptor.cpp
+	<iostream>
+	<fstream>
+	"Sculptor.h"
+
+1668600326 source:/home/lab25ep/Documents/carlos/escultor_p2/src/CutEllipsoid.cpp
+	"CutEllipsoid.h"
+	"Sculptor.h"
+
+1668599795 /home/lab25ep/Documents/carlos/escultor_p2/include/CutEllipsoid.h
+	<FiguraGeometrica.h>
+
+1668600335 source:/home/lab25ep/Documents/carlos/escultor_p2/src/FiguraGeometrica.cpp
+	"FiguraGeometrica.h"
+
+1668599644 source:/home/lab25ep/Documents/carlos/escultor_p2/src/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"Sculptor.h"
+	"PutVoxel.h"
+	"PutBox.h"
+	"PutSphere.h"
+	"PutEllipsoid.h"
+	"CutVoxel.h"
+	"CutBox.h"
+	"CutSphere.h"
+	"CutEllipsoid.h"
+	"FiguraGeometrica.h"
+
+1668600181 /home/lab25ep/Documents/carlos/escultor_p2/include/PutVoxel.h
+	"FiguraGeometrica.h"
+	"Sculptor.h"
+
+1668600118 /home/lab25ep/Documents/carlos/escultor_p2/include/PutSphere.h
+	<FiguraGeometrica.h>
+
+1668600641 /home/lab25ep/Documents/carlos/escultor_p2/include/PutEllipsoid.h
+	<FiguraGeometrica.h>
+
+1668600648 source:/home/lab25ep/Documents/carlos/escultor_p2/src/PutEllipsoid.cpp
+	"PutEllipsoid.h"
+	"Sculptor.h"
+
+1668600655 source:/home/lab25ep/Documents/carlos/escultor_p2/src/PutSphere.cpp
+	"PutSphere.h"
+	"Sculptor.h"
+
