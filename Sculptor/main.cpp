@@ -14,13 +14,11 @@
 #include "FiguraGeometrica.h"
 
 int main(){
-    int i;
-
     std::string s;
     std::ifstream fin;
     Sculptor *sc;
     std::vector<FiguraGeometrica*> figs;
-    //std::vector<FiguraGeometrica*>::iterator it;
+    std::vector<FiguraGeometrica*>::iterator it;
     float r,g,b,a;
 
     fin.open("../files_config/info.txt");
@@ -82,8 +80,8 @@ int main(){
         }
     }
 
-    for(i=0; i!=figs.size();i++){
-        figs[i]->draw(*sc);
+    for(it = figs.begin(); it!=figs.end();it++){
+        (*it)->draw(*sc);
     }
 
     sc->writeOFF("testes.off");
