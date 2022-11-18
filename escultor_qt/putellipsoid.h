@@ -1,6 +1,6 @@
 #ifndef PUTELLIPSOID_H
 #define PUTELLIPSOID_H
-#include <FiguraGeometrica.h>
+#include <figurageometrica.h>
 
 
 class PutEllipsoid : public FiguraGeometrica
