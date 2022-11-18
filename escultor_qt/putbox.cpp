@@ -1,5 +1,5 @@
-#include "PutBox.h"
-#include "Sculptor.h"
+#include "putbox.h"
+#include "sculptor.h"
 
 
 PutBox::~PutBox()
