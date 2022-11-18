@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "Sculptor.h"
+#include "sculptor.h"
 
 Sculptor::~Sculptor()
 {
