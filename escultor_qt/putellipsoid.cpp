@@ -1,4 +1,4 @@
-#include "PutEllipsoid.h"
+#include "putellipsoid.h"
 #include "sculptor.h"
 
 PutEllipsoid::~PutEllipsoid()
