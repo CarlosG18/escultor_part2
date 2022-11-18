@@ -1,5 +1,5 @@
-#include "CutBox.h"
-#include "Sculptor.h"
+#include "cutbox.h"
+#include "sculptor.h"
 
 CutBox::~CutBox()
 {
