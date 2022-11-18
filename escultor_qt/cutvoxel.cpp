@@ -1,5 +1,5 @@
-#include "CutVoxel.h"
-#include "Sculptor.h"
+#include "cutvoxel.h"
+#include "sculptor.h"
 
 
 CutVoxel::~CutVoxel()
