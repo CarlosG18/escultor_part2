@@ -1,6 +1,6 @@
 #ifndef PUTBOX_H
 #define PUTBOX_H
-#include "FiguraGeometrica.h"
+#include "figurageometrica.h"
 
 
 class PutBox : public FiguraGeometrica
