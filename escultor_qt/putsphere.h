@@ -1,7 +1,7 @@
 #ifndef PUTSPHERE_H
 #define PUTSPHERE_H
 
-#include <FiguraGeometrica.h>
+#include <figurageometrica.h>
 
 
 class PutSphere : public FiguraGeometrica
