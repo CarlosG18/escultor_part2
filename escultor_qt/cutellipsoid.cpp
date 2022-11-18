@@ -1,4 +1,4 @@
-#include "CutEllipsoid.h"
+#include "cutellipsoid.h"
 #include "sculptor.h"
 
 CutEllipsoid::~CutEllipsoid()
