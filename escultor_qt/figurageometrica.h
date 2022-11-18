@@ -1,6 +1,6 @@
 #ifndef FIGURAGEOMETRICA_H
 #define FIGURAGEOMETRICA_H
-#include "Sculptor.h"
+#include "sculptor.h"
 
 class FiguraGeometrica
 {
