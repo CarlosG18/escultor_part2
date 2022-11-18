@@ -1,4 +1,4 @@
-#include "CutSphere.h"
+#include "cutsphere.h"
 
 CutSphere::~CutSphere()
 {
