@@ -1,5 +1,5 @@
-#include "PutVoxel.h"
-#include "Sculptor.h"
+#include "putvoxel.h"
+#include "sculptor.h"
 #include "figurageometrica.h"
 
 PutVoxel::~PutVoxel()
