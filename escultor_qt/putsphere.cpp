@@ -1,4 +1,4 @@
-#include "PutSphere.h"
+#include "putsphere.h"
 #include "sculptor.h"
 
 PutSphere::~PutSphere()
