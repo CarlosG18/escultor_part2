@@ -83,7 +83,11 @@ cutvoxel 25 53 40
 
 
 ## Demonstração
+  ![](mascote_github.gif)
 
+## Mais detalhes
+link para a página do criador (Agostinho Brito Jr) original do projeto: 
+https://agostinhobritojr.github.io/curso/progav-dca1202/escultor.html
 
 
 
