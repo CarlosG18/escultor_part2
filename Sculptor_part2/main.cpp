@@ -2,16 +2,16 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include "Sculptor.h"
-#include "PutVoxel.h"
-#include "PutBox.h"
-#include "PutSphere.h"
-#include "PutEllipsoid.h"
-#include "CutVoxel.h"
-#include "CutBox.h"
-#include "CutSphere.h"
-#include "CutEllipsoid.h"
-#include "FiguraGeometrica.h"
+#include "sculptor.h"
+#include "putvoxel.h"
+#include "putbox.h"
+#include "putsphere.h"
+#include "putellipsoid.h"
+#include "cutvoxel.h"
+#include "cutbox.h"
+#include "cutsphere.h"
+#include "cutellipsoid.h"
+#include "figurageometrica.h"
 #include "Interpretador.h"
 
 int main(){
@@ -20,8 +20,7 @@ int main(){
     Sculptor *sc;
     std::vector<FiguraGeometrica*> figs;
     std::vector<FiguraGeometrica*>::iterator it;
-    float r,g,b,a;
-    Interpretador inter("info.txt");
+    Interpretador inter("../files_config/info.txt");
     inter.run(figs);
     larg = inter.get_larg();
     alt = inter.get_alt();
