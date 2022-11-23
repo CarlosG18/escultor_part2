@@ -3,7 +3,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include "FiguraGeometrica.h"
+#include "figurageometrica.h"
 
 class Interpretador{
    private:
