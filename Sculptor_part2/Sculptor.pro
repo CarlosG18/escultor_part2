@@ -13,7 +13,8 @@ SOURCES += main.cpp \
     putsphere.cpp \
     putellipsoid.cpp \
     cutsphere.cpp \
-    cutellipsoid.cpp
+    cutellipsoid.cpp \ 
+    Interpretador.cpp
 
 HEADERS += \
     figurageometrica.h \
@@ -25,4 +26,5 @@ HEADERS += \
     putsphere.h \
     putellipsoid.h \
     cutsphere.h \
-    cutellipsoid.h
+    cutellipsoid.h \
+    Interpretador.h
