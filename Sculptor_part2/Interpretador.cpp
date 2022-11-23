@@ -2,16 +2,16 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
-#include "PutVoxel.h"
-#include "FiguraGeometrica.h"
-#include "CutVoxel.h"
-#include "PutBox.h"
-#include "CutBox.h"
-#include "PutSphere.h"
-#include "CutSphere.h"
-#include "PutEllipsoid.h"
-#include "CutEllipsoid.h"
-#include "Sculptor.h"
+#include "putvoxel.h"
+#include "figurageometrica.h"
+#include "cutvoxel.h"
+#include "putbox.h"
+#include "cutbox.h"
+#include "putsphere.h"
+#include "cutsphere.h"
+#include "putellipsoid.h"
+#include "cutellipsoid.h"
+#include "sculptor.h"
 
 Interpretador::Interpretador(const char* file){
 	fin.open(file);
